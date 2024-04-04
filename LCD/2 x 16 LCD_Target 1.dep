@@ -1,0 +1,8 @@
+Dependencies for Project '2 x 16 LCD', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\LCD 2 x 16.c)(0x65FE96D5)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o ".\lcd 2 x 16.o" --omf_browse ".\lcd 2 x 16.crf" --depend ".\lcd 2 x 16.d")
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x532C1500)
+I (gpio.h)(0x65FE766B)
+I (lcd.h)(0x65FE7559)
+F (.\gpio.h)(0x65FE766B)()
+F (.\lcd.h)(0x65FE7559)()
