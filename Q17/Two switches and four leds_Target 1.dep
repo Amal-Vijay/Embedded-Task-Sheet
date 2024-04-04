@@ -1,0 +1,4 @@
+Dependencies for Project 'Two switches and four leds', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Two switches and four leds.c)(0x65EEA408)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o ".\two switches and four leds.o" --omf_browse ".\two switches and four leds.crf" --depend ".\two switches and four leds.d")
+I (C:\Keil\ARM\Inc\Philips\LPC214X.h)(0x532C1500)
