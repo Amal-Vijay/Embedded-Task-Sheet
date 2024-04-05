@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Amal Vijay\Desktop\Embedded programing\class\SPI\spi.uvproj
+Project File Date:  04/03/2024
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling SPI.c...
+LCD.h(13): warning:  #223-D: function "pinWrite" declared implicitly
+   pinWrite(RS,0);
+LCD.h(15): warning:  #223-D: function "portWrite" declared implicitly
+   portWrite(LCDdataPort,mycmd);
+LCD.h(17): warning:  #223-D: function "delay" declared implicitly
+   delay();
+LCD.h(22): warning:  #223-D: function "pinWrite" declared implicitly
+   pinWrite(RS,1);
+LCD.h(24): warning:  #223-D: function "portWrite" declared implicitly
+   portWrite(LCDdataPort,mydata);
+LCD.h(26): warning:  #223-D: function "delay" declared implicitly
+   delay();
+LCD.h(44): warning:  #223-D: function "delay" declared implicitly
+   delay();
+LCD.h(58): warning:  #1-D: last line of file ends without a newline
+   }
+SPI.c(16): warning:  #550-D: variable "flush" was set but never used
+        char flush;
+SPI.c(38): error:  #268: declaration may not appear after executable statement in block
+        unsigned char ;
+SPI.c(38): warning:  #64-D: declaration does not declare anything
+        unsigned char ;
+SPI.c(39): error:  #268: declaration may not appear after executable statement in block
+        char receive, transmit[7];
+SPI.c(41): warning:  #223-D: function "LCD_Init" declared implicitly
+        LCD_Init();
+SPI.c(43): warning:  #223-D: function "LCD_String" declared implicitly
+        LCD_String("Master send");
+SPI.c(51): warning:  #223-D: function "delay_ms" declared implicitly
+                        delay_ms(100);
+SPI.c(55): warning:  #223-D: function "LCD_Command" declared implicitly
+                LCD_Command(0xC0);
+SPI.c(39): warning:  #177-D: variable "receive" was declared but never referenced
+        char receive, transmit[7];
+SPI.c(64): warning:  #1-D: last line of file ends without a newline
+  //MASTER
+SPI.c: 16 warnings, 2 errors
+".\spi.axf" - 2 Error(s), 16 Warning(s).
+Target not created
+</pre>
+</body>
+</html>
