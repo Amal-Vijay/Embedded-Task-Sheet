@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Amal Vijay\Desktop\Embedded programing\8LEDS\LCD 1\Display any ascii character in the Lcd screen.uvproj
+Project File Date:  04/05/2024
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling Display any ascii character in the Lcd screen.c...
+Display any ascii character in the Lcd screen.c(28): warning:  #951-D: return type of function "main" must be "int"
+  void main() {
+Display any ascii character in the Lcd screen.c: 1 warning, 0 errors
+linking...
+Program Size: Code=748 RO-data=16 RW-data=0 ZI-data=1256  
+".\Display any ascii character in the Lcd screen.axf" - 0 Error(s), 1 Warning(s).
+ed implicitly
+   pinWrite(RS,1);
+lcd.h(22): warning:  #223-D: function "portWrite" declared implicitly
+   portWrite(1,mydata);
+lcd.h(24): warning:  #223-D: function "delay" declared implicitly
+   delay();
+lcd.h(34): warning:  #1-D: last line of file ends without a newline
+   }
+Display any ascii character in the Lcd screen.c(8): warning:  #223-D: function "lcd_init" declared implicitly
+    lcd_init ();                          /* Initialize LCD */
+Display any ascii character in the Lcd screen.c(10): warning:  #223-D: function "lcd_putc" declared implicitly
+    lcd_putc ('H');                       /* display ASCII character 'H' */
+Display any ascii character in the Lcd screen.c: 9 warnings, 0 errors
+linking...
+.\Display any ascii character in the Lcd screen.axf: Error: L6218E: Undefined symbol delay (referred from display any ascii character in the lcd screen.o).
+.\Display any ascii character in the Lcd screen.axf: Error: L6218E: Undefined symbol lcd_init (referred from display any ascii character in the lcd screen.o).
+.\Display any ascii character in the Lcd screen.axf: Error: L6218E: Undefined symbol lcd_putc (referred from display any ascii character in the lcd screen.o).
+.\Display any ascii character in the Lcd screen.axf: Error: L6218E: Undefined symbol pinWrite (referred from display any ascii character in the lcd screen.o).
+.\Display any ascii character in the Lcd screen.axf: Error: L6218E: Undefined symbol portWrite (referred from display any ascii character in the lcd screen.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 5 error messages.
+".\Display any ascii character in the Lcd screen.axf" - 5 Error(s), 9 Warning(s).
+Target not created
